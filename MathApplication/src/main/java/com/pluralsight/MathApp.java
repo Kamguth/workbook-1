@@ -47,6 +47,19 @@ Push your changes to GitHub (always stage, commit and push your changes)
         String rootString = "The root of the set variable 5.0 is";
         System.out.println(rootString);
         System.out.println(rootOfSetVariable);
+    //Question 5
+
+    //Question 6
+        float absoluteVal = 3.8f;
+        float solvedVal = (float) Math.abs(absoluteVal);
+        String absoluteValstring = "The absolute value of -3.8 is";
+        System.out.println(absoluteValstring);
+        System.out.println(solvedVal);
+    //Question 7
+        
+
+
+
 
 
 
