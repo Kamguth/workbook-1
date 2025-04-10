@@ -25,22 +25,16 @@ Push your changes to GitHub (always stage, commit and push your changes)
         int garysSalary = 68500;
         int highestSalary = Math.max(garysSalary, bobsSalary);
         String salaryString = "The highest salary is";
-        System.out.println(salaryString);
-        System.out.println(highestSalary);
+        System.out.println("The highest salary is " + highestSalary);
     // Question 2
         int truckPrice = 113500;
         int carPrice = 45900;
         int cheapestOption = Math.min(truckPrice,carPrice);
-        String cheapString = "The cheaper option is";
-        System.out.println(cheapString);
-        System.out.println(cheapestOption);
+        System.out.println("The cheaper option is " + cheapestOption);
     //Question 3
         float radius = 7.25f;
-        double pie = 3.1415926535;
-        double areaSolved = Math.pow(radius, 2) * pie;
-        String answerForarea = "The area of the circle is";
-        System.out.println(answerForarea);
-        System.out.println(areaSolved);
+        double areaSolved = Math.pow(radius, 2) * Math.PI;
+        System.out.println("The area of the circle is " + areaSolved);
     //Question 4
         float rootVariable = 5.0f;
         float rootOfSetVariable = (float) Math.pow(rootVariable, 2f);
@@ -48,15 +42,21 @@ Push your changes to GitHub (always stage, commit and push your changes)
         System.out.println(rootString);
         System.out.println(rootOfSetVariable);
     //Question 5
+        short x1 = 5;
+        short y1 = 10;
+        short x2 = 85;
+        short y2 = 50;
+
+        double distance = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
+        System.out.println("The distance is " + distance);
+
 
     //Question 6
         float absoluteVal = 3.8f;
         float solvedVal = (float) Math.abs(absoluteVal);
-        String absoluteValstring = "The absolute value of -3.8 is";
-        System.out.println(absoluteValstring);
-        System.out.println(solvedVal);
+        System.out.println("The absolute value of -3.8 is " + solvedVal);
     //Question 7
-        
+
 
 
 
