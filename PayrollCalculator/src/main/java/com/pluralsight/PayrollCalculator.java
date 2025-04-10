@@ -5,15 +5,23 @@ public class PayrollCalculator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter name");
+        System.out.print("Please enter name: ");
         String name = input.nextLine();
-        System.out.println("Please enter hours worked");
-        double hoursWorked = input.nextDouble();
-        System.out.println("Please enter pay rate");
-        double wage = input.nextDouble();
+        System.out.print("Please enter hours worked: ");
+        float hoursWorked = input.nextFloat();
+        System.out.print("Please enter pay rate: ");
+        float wage = input.nextFloat();
 
-        double grossPay = (hoursWorked * wage);
-        System.out.printf(name + " your gross pay is " + grossPay);
+        System.out.println("Employee Name: " + name + ", Pay Rate: " + wage * hoursWorked);
+        System.out.printf("Employee Name: %s, Pay Rate: %.2f", name, hoursWorked * wage);
+
+
+
+
+
+
+
+
 
 
 
