@@ -40,6 +40,16 @@ git push origin main*/
             System.out.println("Must choose a valid option between 1 and 2");
         }
 
+
+        System.out.print("Would you like the sandwich loaded? 1 for yes 2 for no: ");
+        int loaded = keyboard.nextInt();
+        if (loaded == 1 && option ==1){
+         base += 1;
+        }else if (loaded == 1 && option == 2){
+            base += 1.75f;
+        }
+
+
         System.out.print("Enter age for discount eligibility: ");
         int age = keyboard.nextInt();
 
