@@ -26,9 +26,8 @@ git push origin main*/
         float discount = 0f;
 
 
-
-
-
+        System.out.println("Welcome to Beefonators, A Sub You Can Count On");
+        System.out.println("Prepare your ID for inspection because no free discounts for liars here!");
         System.out.print("Select sandwich size, 1 Regular or 2 Large: ");
         int option = keyboard.nextInt();
 
